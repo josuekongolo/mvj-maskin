@@ -642,7 +642,10 @@ p:last-child {
   display: flex;
   align-items: center;
   padding: calc(80px + var(--spacing-3xl)) 0 var(--spacing-3xl);
-  background: linear-gradient(135deg, var(--primary-900) 0%, var(--primary-800) 50%, var(--primary-700) 100%);
+  background: linear-gradient(135deg, rgba(12, 25, 41, 0.85) 0%, rgba(19, 39, 64, 0.8) 50%, rgba(26, 54, 87, 0.85) 100%),
+              url('https://img.b2bpic.net/premium-photo/two-powerful-excavators-work-same-time-construction-site-sunny-blue-sky-background-construction-equipment-earthworks_331695-4406.jpg');
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
 }
 
@@ -768,7 +771,10 @@ p:last-child {
 
 .page-hero {
   padding: calc(80px + var(--spacing-3xl)) 0 var(--spacing-2xl);
-  background: linear-gradient(135deg, var(--primary-900) 0%, var(--primary-800) 100%);
+  background: linear-gradient(135deg, rgba(12, 25, 41, 0.9) 0%, rgba(19, 39, 64, 0.85) 100%),
+              url('https://img.b2bpic.net/premium-photo/excavator-standing-sandpit-with-raised-bucket-cloudscape-sky_73110-17134.jpg');
+  background-size: cover;
+  background-position: center;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -1096,12 +1102,12 @@ p:last-child {
 }
 .project-card:nth-child(6) .placeholder-image svg { display: none; }
 
-/* About Page Images */
-.about-grid .about-image:first-child .placeholder-image {
-  background-image: url('https://img.b2bpic.net/premium-photo/green-excavator-flatten-ground-near-water-river_765331-356.jpg');
+/* About Page & Index About Images */
+.about-grid .about-image .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/there-is-small-tractor-working-with-earth-moving-equipment-leveling-land-near-new-house_73110-16283.jpg');
 }
-.about-grid .about-image:first-child .placeholder-image svg,
-.about-grid .about-image:first-child .placeholder-image span { display: none; }
+.about-grid .about-image .placeholder-image svg,
+.about-grid .about-image .placeholder-image span { display: none; }
 
 /* Area Map Image */
 .area-map .placeholder-image {
