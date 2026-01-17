@@ -1018,6 +1018,8 @@ p:last-child {
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
   text-align: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .placeholder-image svg {
@@ -1031,6 +1033,81 @@ p:last-child {
   font-size: 0.875rem;
   opacity: 0.7;
 }
+
+/* Service Section Images */
+#graving .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/green-excavator-flatten-ground-near-water-river_765331-356.jpg');
+}
+#graving .placeholder-image svg, #graving .placeholder-image span { display: none; }
+
+#vei .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/top-black-basalt-stones-mine-industry-basalt-stone-stone-quarry_969459-4075.jpg');
+}
+#vei .placeholder-image svg, #vei .placeholder-image span { display: none; }
+
+#va .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/drainage-groundwater-works-laying-pipes-road-culvert-road-construction_73110-19140.jpg');
+}
+#va .placeholder-image svg, #va .placeholder-image span { display: none; }
+
+#landbruk .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/tractor-field-against-sky_1048944-1845188.jpg');
+}
+#landbruk .placeholder-image svg, #landbruk .placeholder-image span { display: none; }
+
+#snobroyting .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/clearing-snow-from-road-with-tractor-city-winter_274719-3192.jpg');
+}
+#snobroyting .placeholder-image svg, #snobroyting .placeholder-image span { display: none; }
+
+#utleie .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/machine-operator-standing-hydraulic-excavator-assessing-job-site_1426-15059.jpg');
+}
+#utleie .placeholder-image svg, #utleie .placeholder-image span { display: none; }
+
+/* Project Card Images */
+.project-card:nth-child(1) .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/foundation-site-new-building-details-reinforcements-with-steel-bars-wire-rod-wooden-decking-preparing-cement-pouring_635416-2030.jpg');
+}
+.project-card:nth-child(1) .placeholder-image svg { display: none; }
+
+.project-card:nth-child(2) .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/top-black-basalt-stones-mine-industry-basalt-stone-stone-quarry_969459-4075.jpg');
+}
+.project-card:nth-child(2) .placeholder-image svg { display: none; }
+
+.project-card:nth-child(3) .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/drainage-groundwater-works-laying-pipes-road-culvert-road-construction_73110-19140.jpg');
+}
+.project-card:nth-child(3) .placeholder-image svg { display: none; }
+
+.project-card:nth-child(4) .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/high-angle-view-pier-sea_1048944-25383144.jpg');
+}
+.project-card:nth-child(4) .placeholder-image svg { display: none; }
+
+.project-card:nth-child(5) .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/worker-minitractor-rakes-earth-with-bucket-land-works_1089554-18642.jpg');
+}
+.project-card:nth-child(5) .placeholder-image svg { display: none; }
+
+.project-card:nth-child(6) .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/pile-waste-asphalt-gravel-forest_275559-19136.jpg');
+}
+.project-card:nth-child(6) .placeholder-image svg { display: none; }
+
+/* About Page Images */
+.about-grid .about-image:first-child .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/green-excavator-flatten-ground-near-water-river_765331-356.jpg');
+}
+.about-grid .about-image:first-child .placeholder-image svg,
+.about-grid .about-image:first-child .placeholder-image span { display: none; }
+
+/* Area Map Image */
+.area-map .placeholder-image {
+  background-image: url('https://img.b2bpic.net/premium-photo/tourism-vacation-travel-mountains-landscape-fjord-norway-scandinavia_950709-183.jpg');
+}
+.area-map .placeholder-image svg, .area-map .placeholder-image span { display: none; }
 
 /* ========================================
    Why Choose Us / Trust Section
