@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt MVJ Maskin AS for graving, grunnarbeid og maskinentreprenørtjenester i Rødøy, Meløy og Lurøy. Ring oss på 900 00 000 eller send en forespørsel.">
+    <meta name="keywords" content="kontakt maskinentreprenør, graving Rødøy, tilbud grunnarbeid, MVJ Maskin kontakt">
+
+    <title>Kontakt Oss | MVJ Maskin AS - Maskinentreprenør Tjongsfjorden</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org ContactPage markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Kontakt MVJ Maskin AS",
+        "description": "Kontaktside for MVJ Maskin AS - Maskinentreprenør i Tjongsfjorden",
+        "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "MVJ Maskin AS",
+            "telephone": "+47 900 00 000",
+            "email": "post@mvjmaskin.no",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Tjongsfjorden",
+                "postalCode": "8186",
+                "addressLocality": "Rødøy",
+                "addressRegion": "Nordland",
+                "addressCountry": "NO"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "07:00",
+                "closes": "16:00"
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="20" width="14" height="16" rx="1" fill="currentColor"/>
+                            <rect x="22" y="12" width="14" height="24" rx="1" fill="currentColor" opacity="0.7"/>
+                            <rect x="8" y="4" width="24" height="6" rx="1" fill="currentColor" opacity="0.5"/>
+                            <circle cx="11" cy="38" r="3" fill="currentColor"/>
+                            <circle cx="29" cy="38" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-name">MVJ Maskin</span>
+                        <span class="logo-tagline">Maskinentreprenør</span>
+                    </div>
+                </a>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Åpne meny">
+                    <span class="hamburger"></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Hjem</a></li>
+                    <li><a href="tjenester.html" class="nav-link">Tjenester</a></li>
+                    <li><a href="om-oss.html" class="nav-link">Om oss</a></li>
+                    <li><a href="prosjekter.html" class="nav-link">Prosjekter</a></li>
+                    <li><a href="kontakt.html" class="nav-link active">Kontakt</a></li>
+                </ul>
+
+                <a href="tel:+4790000000" class="btn btn-primary nav-cta">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    Ring oss
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <span class="badge">Ta kontakt</span>
+                    <h1>Vi er klare for ditt prosjekt</h1>
+                    <p>Kontakt oss for en uforpliktende prat om ditt neste prosjekt. Vi gir deg gjerne et tilbud tilpasset dine behov.</p>
+                </div>
+            </div>
+            <div class="page-hero-pattern"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <div class="contact-form-header">
+                            <h2>Send oss en forespørsel</h2>
+                            <p>Fyll ut skjemaet så tar vi kontakt innen 24 timer.</p>
+                        </div>
+
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Navn <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Ditt fulle navn" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email" class="form-label">E-post <span class="required">*</span></label>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="din@epost.no" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Telefon <span class="required">*</span></label>
+                                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="000 00 000" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="projectType" class="form-label">Type prosjekt</label>
+                                <select id="projectType" name="projectType" class="form-select">
+                                    <option value="">Velg type prosjekt</option>
+                                    <option value="graving">Graving og grunnarbeid</option>
+                                    <option value="va">Vann og avløp (VA)</option>
+                                    <option value="vei">Vei og infrastruktur</option>
+                                    <option value="snobroyting">Snøbrøyting</option>
+                                    <option value="landbruk">Landbruk og oppdrett</option>
+                                    <option value="utleie">Maskinutleie</option>
+                                    <option value="annet">Annet</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="location" class="form-label">Prosjektsted</label>
+                                <input type="text" id="location" name="location" class="form-input" placeholder="Hvor skal arbeidet utføres?">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Beskrivelse av prosjektet <span class="required">*</span></label>
+                                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Beskriv prosjektet ditt, inkluder gjerne informasjon om omfang, tidspunkt og eventuelle spesielle behov..." required></textarea>
+                            </div>
+
+                            <div class="form-group form-checkbox">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">Jeg godtar at MVJ Maskin AS lagrer mine opplysninger for å besvare henvendelsen. <span class="required">*</span></label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg btn-full">
+                                <span>Send forespørsel</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+
+                            <div class="form-message" id="formMessage"></div>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h3>Ring oss</h3>
+                                <a href="tel:+4790000000" class="contact-link">900 00 000</a>
+                                <p class="contact-note">Hverdager 07:00 - 16:00</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h3>E-post</h3>
+                                <a href="mailto:post@mvjmaskin.no" class="contact-link">post@mvjmaskin.no</a>
+                                <p class="contact-note">Vi svarer innen 24 timer</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h3>Besøksadresse</h3>
+                                <address>
+                                    Tjongsfjorden<br>
+                                    8186 Rødøy<br>
+                                    Nordland
+                                </address>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h3>Åpningstider</h3>
+                                <div class="hours-list">
+                                    <div class="hours-row">
+                                        <span>Mandag - Fredag</span>
+                                        <span>07:00 - 16:00</span>
+                                    </div>
+                                    <div class="hours-row">
+                                        <span>Lørdag - Søndag</span>
+                                        <span>Stengt</span>
+                                    </div>
+                                </div>
+                                <p class="contact-note">Akutte henvendelser besvares utenom åpningstid</p>
+                            </div>
+                        </div>
+
+                        <!-- Company Info Card -->
+                        <div class="company-info-card">
+                            <h3>Firmainformasjon</h3>
+                            <dl class="company-details">
+                                <div class="detail-row">
+                                    <dt>Org.nr:</dt>
+                                    <dd>836 911 822</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Etablert:</dt>
+                                    <dd>2026</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Kommune:</dt>
+                                    <dd>Rødøy</dd>
+                                </div>
+                                <div class="detail-row">
+                                    <dt>Fylke:</dt>
+                                    <dd>Nordland</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="section map-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Finn oss</span>
+                    <h2>Vi holder til i Tjongsfjorden</h2>
+                    <p>Ved foten av Svartisen, midt i hjertet av Helgelandskysten</p>
+                </div>
+
+                <div class="map-wrapper">
+                    <div class="map-placeholder">
+                        <div class="map-overlay">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <h3>Tjongsfjorden, Rødøy</h3>
+                            <p>Ved Svartisen - Europas nest største isbre</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Tjongsfjorden+Rødøy+Nordland" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                                Åpne i Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Areas -->
+        <section class="section section-alt service-areas-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Dekningsområde</span>
+                    <h2>Vi dekker hele Helgelandskysten</h2>
+                    <p>Med base i Tjongsfjorden utfører vi oppdrag i følgende kommuner</p>
+                </div>
+
+                <div class="areas-grid">
+                    <div class="area-card">
+                        <div class="area-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Rødøy</h3>
+                        <p>Vår hjemkommune</p>
+                    </div>
+
+                    <div class="area-card">
+                        <div class="area-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Meløy</h3>
+                        <p>Inkl. Ørnes og Glomfjord</p>
+                    </div>
+
+                    <div class="area-card">
+                        <div class="area-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Lurøy</h3>
+                        <p>Øykommune med mange bygder</p>
+                    </div>
+
+                    <div class="area-card">
+                        <div class="area-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Gildeskål</h3>
+                        <p>Sør for Bodø</p>
+                    </div>
+
+                    <div class="area-card">
+                        <div class="area-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Træna</h3>
+                        <p>Øykommunen ytterst i havet</p>
+                    </div>
+
+                    <div class="area-card area-card-more">
+                        <div class="area-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="16"/>
+                                <line x1="8" y1="12" x2="16" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3>Andre områder?</h3>
+                        <p>Ta kontakt for avtale</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Klar til å starte?</h2>
+                    <p>Ring oss direkte eller send en forespørsel. Vi gir deg alltid en uforpliktende vurdering av ditt prosjekt.</p>
+                    <div class="cta-buttons">
+                        <a href="tel:+4790000000" class="btn btn-accent btn-lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            900 00 000
+                        </a>
+                        <a href="mailto:post@mvjmaskin.no" class="btn btn-outline-light btn-lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            Send e-post
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4" y="20" width="14" height="16" rx="1" fill="currentColor"/>
+                                <rect x="22" y="12" width="14" height="24" rx="1" fill="currentColor" opacity="0.7"/>
+                                <rect x="8" y="4" width="24" height="6" rx="1" fill="currentColor" opacity="0.5"/>
+                                <circle cx="11" cy="38" r="3" fill="currentColor"/>
+                                <circle cx="29" cy="38" r="3" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">MVJ Maskin</span>
+                            <span class="logo-tagline">Maskinentreprenør</span>
+                        </div>
+                    </a>
+                    <p class="footer-desc">Profesjonell maskinentreprenør ved foten av Svartisen. Vi utfører graving, grunnarbeid og infrastrukturprosjekter på Helgelandskysten.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Tjenester</h4>
+                    <ul>
+                        <li><a href="tjenester.html#graving">Graving og grunnarbeid</a></li>
+                        <li><a href="tjenester.html#vei">Vei og infrastruktur</a></li>
+                        <li><a href="tjenester.html#va">Vann og avløp</a></li>
+                        <li><a href="tjenester.html#snobroyting">Snøbrøyting</a></li>
+                        <li><a href="tjenester.html#utleie">Maskinutleie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Selskapet</h4>
+                    <ul>
+                        <li><a href="om-oss.html">Om oss</a></li>
+                        <li><a href="prosjekter.html">Prosjekter</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Kontakt oss</h4>
+                    <ul>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <a href="tel:+4790000000">900 00 000</a>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:post@mvjmaskin.no">post@mvjmaskin.no</a>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Tjongsfjorden, 8186 Rødøy</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 MVJ Maskin AS. Org.nr: 836 911 822. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
